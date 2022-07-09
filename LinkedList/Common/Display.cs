@@ -61,6 +61,11 @@ namespace LinkedList.Common
             lL.PrintList();
         }
 
+        public static void Problem3()
+        {
+            FlattenMultiLevelLinkedList flattenMultiLevelLinkedList = new FlattenMultiLevelLinkedList();
+            flattenMultiLevelLinkedList.Main();
+        }
 
     }
 }
