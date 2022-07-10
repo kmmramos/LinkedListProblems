@@ -67,5 +67,11 @@ namespace LinkedList.Common
             flattenMultiLevelLinkedList.Main();
         }
 
+        public static void Problem4()
+        {
+            CycleDetection cycleDetection = new CycleDetection();
+            cycleDetection.Main();
+        }
+
     }
 }

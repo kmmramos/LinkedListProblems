@@ -16,6 +16,7 @@ namespace LinkedList
                 Console.WriteLine("[1] Reverse Linked List");
                 Console.WriteLine("[2] M and N Reversal");
                 Console.WriteLine("[3] Flatten Multi-Level Linked List");
+                Console.WriteLine("[4] Cycle Detection in Linked List");
                 Console.WriteLine("Enter action:");
                 input = Console.ReadLine();
                 choice = Validator.IsInteger(ref input, choice);
@@ -39,6 +40,9 @@ namespace LinkedList
                         break;
                     case 3:
                         Display.Problem3();
+                        break;
+                    case 4:
+                        Display.Problem4();
                         break;
                     default:
                         break;
