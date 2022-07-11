@@ -1,3 +1,5 @@
+# LinkedListProblems
+
 This is just to demonstrate creating a linked list from user inputs and how to manipulate them.
 
 Problem 1: Reverse a linked list
@@ -8,4 +10,4 @@ Problem 3: Given a doubly linked list, list nodes also have a child property tha
 Return the list as single level frattened doubly linked list.
 
 Problem 4: Illustrate cycle detection using Floyd's tortoise and hare algo.
-# LinkedListProblems
+
